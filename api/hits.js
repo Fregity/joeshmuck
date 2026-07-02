@@ -6,7 +6,7 @@ const redis = new Redis({
 });
 
 const COUNT_KEY = 'hits:count';
-const STARTING_COUNT = 8130; // so the counter doesn't reset to 0 on launch day
+const STARTING_COUNT = 0; // so the counter doesn't reset to 0 on launch day
 
 export default async function handler(req, res) {
   try {
