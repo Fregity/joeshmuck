@@ -1,0 +1,9 @@
+{
+  "name": "joeshmuck-beer-emporium",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Joe Shmuck's Beer Emporium - now with a real, shared guestbook and visitor counter",
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  }
+}
