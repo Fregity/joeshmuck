@@ -304,8 +304,8 @@
 </footer>
 
 <script>
-  var WARNING_THRESHOLD = 5000;
-  var POLL_INTERVAL_MS = 12000; // 12s: frequent enough to feel live, gentle on the Redis command budget
+  var WARNING_THRESHOLD = 3000;
+  var POLL_INTERVAL_MS = 30000; // 12s: frequent enough to feel live, gentle on the Redis command budget
   var lastGuestbookJSON = '';
 
   // --- Warning overlay ---
